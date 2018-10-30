@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <!-- keywords for search engine, encoding,author name, and other document info-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./stylesheets/styles.css"></link>
+    <title>Javascript MVC</title>
+    <!-- <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script> -->
+
+  </head>
+
+  <body>
+    <div class="columnOne">
+      <div>
+        <form class="userInput" data="input">
+          <label>last name:</label>
+          <input type="search" autofocus="autofocus" required="required" placeholder="st name">
+          <input type="submit" value="Search">
+        </form>
+        <p>
+          Last name: Smith,Davis,Jackson,Adams,Price
+        </p>
+      </div>
+    </div>
+    <!-- students name search result -->
+    <div class="columnTwo">
+      <div class="border_line b_left b_right">
+        <h3>Students Found</h3>
+        <div st="st list"></div>
+      </div>
+
+    </div>
+    <!-- grades display -->
+    <div class="columnTwo ">
+
+      <div class="border_line b_right" grade="gpa"></div>
+    </div>
+    <!-- end grades -->
+    <script src="./scripts/Students.js"></script>
+    <script src="./scripts/linkView.js"></script>
+    <script src="./scripts/Controll.js"></script>
+
+  </body>
+
+</html>

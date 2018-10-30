@@ -1,0 +1,6 @@
+var courses=["HCOM 100","ENGL 101","PHIL 106","PHYS 225","BIOL 101","MATH 150","CHEM 313","FIN 310", "ART 333","ECON 202","HIST 201"];
+
+var gpas=[4.0, 3.7,3.0,2.7,2.3,2.0,1.7,1.3,1.0,0.7,0.0];
+
+var fns=["James", "Michael", "Robert", "Maria", "David", "Christopher","Daniel","Matthew","Anthony","Andrew","Steven","Joshua","Kevin", "Mary", "Emma", "Olive", "EmilySofia"]
+var lns=["Smith", "Davis", "Jones", "Jackson", "Adams", "Price"]
